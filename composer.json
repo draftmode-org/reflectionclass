@@ -2,7 +2,7 @@
     "name": "terrazza/component-reflectionclass",
     "type" : "library",
     "version": "1.0.0",
-    "description": "core-reflection-class-modules",
+    "description": "Terrazza Component ReflectionClass",
     "license": "MIT",
     "config" : {
         "vendor-dir" : "plugin"

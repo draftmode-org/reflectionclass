@@ -1,5 +1,5 @@
 {
-    "name": "terrazza/component-reflectionclass",
+    "name": "terrazza/reflectionclass",
     "type" : "library",
     "version": "1.0.0",
     "description": "Terrazza Component ReflectionClass",

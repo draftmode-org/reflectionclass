@@ -4,12 +4,13 @@ namespace Terrazza\Component\ReflectionClass;
 
 use ReflectionClass;
 use ReflectionException;
+use RuntimeException;
 
-class ClassName implements ReflectionClassClassNameInterface {
+class ClassName implements ClassNameInterface {
     private ?string $classSourceFile=null;
     private ?array $classUseStatements=null;
     /**
-     * @throws ReflectionClassClassNameException
+     * @throws RuntimeException
      */
     public function getClassName(string $parentClass, string $findClass) :?string {
         if (class_exists($findClass)) {
@@ -18,7 +19,7 @@ class ClassName implements ReflectionClassClassNameInterface {
         try {
             $rClass                                 = new ReflectionClass($parentClass);
         } catch (ReflectionException $exception) {
-            throw new ReflectionClassClassNameException("parentClass $parentClass could not be loaded", $exception->getCode(), $exception);
+            throw new RuntimeException("parentClass $parentClass could not be loaded", $exception->getCode(), $exception);
         }
         $classInOwnNamespace                        = $rClass->getNamespaceName()."\\".$findClass;
         if (class_exists($classInOwnNamespace)) {

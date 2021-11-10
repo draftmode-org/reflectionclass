@@ -1,13 +1,13 @@
 <?php
-
 namespace Terrazza\Component\ReflectionClass;
+use RuntimeException;
 
-interface ReflectionClassClassNameInterface {
+interface ClassNameInterface {
     /**
      * @param string $parentClass
      * @param string $findClass
      * @return string|null
-     * @throws ReflectionClassClassNameException
+     * @throws RuntimeException
      */
     public function getClassName(string $parentClass, string $findClass) :?string;
 }

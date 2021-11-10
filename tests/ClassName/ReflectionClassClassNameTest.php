@@ -1,8 +1,8 @@
 <?php
 namespace Terrazza\Component\ReflectionClass\Tests\ClassName;
 use PHPUnit\Framework\TestCase;
-use Terrazza\Component\ReflectionClass\ClassName\ReflectionClassClassName;
-use Terrazza\Component\ReflectionClass\ClassName\ReflectionClassClassNameException;
+use Terrazza\Component\ReflectionClass\ClassName as ReflectionClassClassName;
+use Terrazza\Component\ReflectionClass\ReflectionClassClassNameException;
 use Terrazza\Component\ReflectionClass\Tests\Examples\ClassName\ReflectionClassClassNameExampleItem;
 use Terrazza\Component\ReflectionClass\Tests\Examples\ClassName\ReflectionClassClassNameExampleParentChildAlias;
 use Terrazza\Component\ReflectionClass\Tests\Examples\ClassName\ReflectionClassClassNameExampleParentChildSameNamespace;

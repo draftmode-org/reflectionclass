@@ -1,11 +1,11 @@
 <?php
 
-namespace Terrazza\Component\ReflectionClass\ClassName;
+namespace Terrazza\Component\ReflectionClass;
 
 use ReflectionClass;
 use ReflectionException;
 
-class ReflectionClassClassName implements ReflectionClassClassNameInterface {
+class ClassName implements ReflectionClassClassNameInterface {
     private ?string $classSourceFile=null;
     private ?array $classUseStatements=null;
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Terrazza\Component\ReflectionClass\ClassName;
+namespace Terrazza\Component\ReflectionClass;
 
 interface ReflectionClassClassNameInterface {
     /**

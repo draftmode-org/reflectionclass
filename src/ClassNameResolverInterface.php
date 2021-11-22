@@ -2,7 +2,7 @@
 namespace Terrazza\Component\ReflectionClass;
 use RuntimeException;
 
-interface ClassNameInterface {
+interface ClassNameResolverInterface {
     /**
      * @param string $parentClass
      * @param string $findClass

@@ -1,7 +1,7 @@
 {
     "name": "terrazza/reflectionclass",
     "type" : "library",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "description": "Terrazza Component ReflectionClass",
     "license": "MIT",
     "config" : {
@@ -26,7 +26,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Terrazza\\Component\\ReflectionClass\\Tests\\Examples\\" : "tests\\Examples"
+            "Terrazza\\Component\\Serializer\\Tests\\Examples\\" : "tests\\Examples"
         }
     },
     "minimum-stability": "dev"

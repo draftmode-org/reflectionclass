@@ -6,7 +6,7 @@ use ReflectionClass;
 use ReflectionException;
 use RuntimeException;
 
-class ClassNameResolver implements ClassNameResolverInterface {
+class ClassNameResolver implements IClassNameResolver {
     private ?string $classSourceFile=null;
     private ?array $classUseStatements=null;
     /**

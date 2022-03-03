@@ -3,13 +3,12 @@ namespace Terrazza\Component\ReflectionClass\Tests\ClassNameResolver;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;
 use Terrazza\Component\ReflectionClass\ClassNameResolver;
-use Terrazza\Component\ReflectionClass\Tests\Examples\ClassNameResolver\ClassNameResolverExampleItem;
-use Terrazza\Component\ReflectionClass\Tests\Examples\ClassNameResolver\ClassNameResolverExampleParentChildAlias;
-use Terrazza\Component\ReflectionClass\Tests\Examples\ClassNameResolver\ClassNameResolverExampleParentChildSameNamespace;
-use Terrazza\Component\ReflectionClass\Tests\Examples\ClassNameResolver\ClassNameResolverExampleParentChildSubAlias;
-use Terrazza\Component\ReflectionClass\Tests\Examples\ClassNameResolver\ClassNameResolverExampleParentChildSubNamespace;
-use Terrazza\Component\ReflectionClass\Tests\Examples\ClassNameResolver\Sub\ClassNameResolverExampleSubItem;
-
+use Terrazza\Component\ReflectionClass\Tests\_Examples\ClassNameResolver\ClassNameResolverExampleItem;
+use Terrazza\Component\ReflectionClass\Tests\_Examples\ClassNameResolver\ClassNameResolverExampleParentChildAlias;
+use Terrazza\Component\ReflectionClass\Tests\_Examples\ClassNameResolver\ClassNameResolverExampleParentChildSameNamespace;
+use Terrazza\Component\ReflectionClass\Tests\_Examples\ClassNameResolver\ClassNameResolverExampleParentChildSubAlias;
+use Terrazza\Component\ReflectionClass\Tests\_Examples\ClassNameResolver\ClassNameResolverExampleParentChildSubNamespace;
+use Terrazza\Component\ReflectionClass\Tests\_Examples\ClassNameResolver\Sub\ClassNameResolverExampleSubItem;
 
 class ClassNameResolverTest extends TestCase {
 
